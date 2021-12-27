@@ -9,4 +9,78 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+
+header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 8px inset hsl(0deg, 0%, 40%) ;
+  font-size: 1.25rem;
+}
+
+.title {
+  font-size: 2rem;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+section p {
+  font-size: 1.25rem;
+}
+
+.card {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  border-bottom: 8px inset hsl(0deg, 0%, 40%) ;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.indented-heading {
+  margin-left: -48px;
+  padding: 16px 24px 16px 48px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px inset hsl(45deg, 100%, 40%);
+  width: fit-content;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 64px 0;
+}
+
+.max-width-wrapper {
+  width: 100%;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%)
+}
+
+.intro-chunk {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro-chunk p {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  
+  .intro-chunk p {
+    max-width: 50%;
+  }
+  
+}
+  
+}
